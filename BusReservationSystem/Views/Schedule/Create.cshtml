@@ -1,0 +1,48 @@
+﻿@model Bus.DomainModels.Trip
+@{
+    ViewData["Title"] = "Create";
+}
+
+<body style="
+background-image:url('/images/pattern.jpg');
+background-size:cover;
+background-repeat:no-repeat;
+background-position:center center">
+
+</body>
+<h1 style="margin-left: 14px">Add New Trip</h1>
+
+<form class="horizontal" asp-action="Create" method="post">
+
+    <div class="form-group col-md-4">
+        <label asp-for="RouteId">Route Id</label>
+        <input asp-for="RouteId" class="form-control" placeholder="Enter Route Id" />
+    </div>
+
+    <div class="form-group col-md-4">
+        <label asp-for="BusId">Bus Id</label>
+        <input asp-for="BusId" class="form-control" placeholder="Enter Bus Id" />
+    </div>
+
+    <div class="form-group col-md-4">
+        <label asp-for="JourneyDate">Journey Date</label>
+        <input asp-for="JourneyDate" type="datetime" class="form-control" placeholder="Enter Journey Date" />
+    </div>
+
+    <div class="form-group col-md-4">
+        <label asp-for="AvailableSeats">Available Seats</label>
+        <input asp-for="AvailableSeats" type="number" class="form-control" placeholder="Enter Available Seats" />
+        <span asp-validation-for="AvailableSeats" class="text-danger"></span>
+    </div>
+
+    <div style="margin-left: 18px;">
+        <input type="submit" class="btn btn-primary" value="Save" />
+        <a class="btn btn-danger" asp-action="Index" asp-controller="Schedule">Cancel</a>
+    </div>
+
+</form>
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

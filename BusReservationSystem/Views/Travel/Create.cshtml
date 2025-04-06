@@ -1,0 +1,46 @@
+﻿@model Bus.DomainModels.BusDetails
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1 style="margin-left: 14px">Add New Bus</h1>
+
+<body style="
+background-image:url('/images/pattern.jpg');
+background-size:cover;
+background-repeat:no-repeat;
+background-position:center center">
+</body>
+
+<form class="horizontal" asp-action="Create" method="post">
+
+    <div class="form-group col-md-4">
+        <label asp-for="BusName">Bus Name</label>
+        <input asp-for="BusName" class="form-control" placeholder="Enter Bus Name" />
+        <span asp-validation-for="BusName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group col-md-4">
+        <label asp-for="BusCategory">Category</label>
+        <select asp-for="BusCategory" class="form-control" asp-items="Html.GetEnumSelectList(typeof(Bus.DomainModels.BusCategory))"> </select>
+        <span asp-validation-for="BusCategory" class="text-danger"></span>
+    </div>
+
+    <div class="form-group col-md-4">
+        <label asp-for="Capacity">Capacity</label>
+        <input asp-for="Capacity" class="form-control" placeholder="Enter Capacity" />
+        <span asp-validation-for="Capacity" class="text-danger"></span>
+    </div>
+
+    <div style="margin-left: 18px;">
+        <input type="submit" class="btn btn-primary" value="Save" />
+        <a class="btn btn-danger" asp-action="Index" asp-controller="Travel">Cancel</a>
+    </div>
+</form>
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+

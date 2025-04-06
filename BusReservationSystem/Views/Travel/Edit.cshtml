@@ -1,0 +1,43 @@
+﻿@model Bus.DomainModels.BusDetails
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1 style="margin-left: 14px">Edit</h1>
+
+<body style="
+background-image:url('/images/pattern.jpg');
+background-size:cover;
+background-repeat:no-repeat;
+background-position:center center">
+</body>
+
+<form class="horizontal" asp-action="Edit" method="post">
+
+    <div class="form-group col-md-4">
+        <label asp-for="BusName">Bus Name</label>
+        <input asp-for="BusName" value="@Model.BusName" class="form-control input-md" />
+    </div>
+
+    <div class="form-group col-md-4">
+        <label asp-for="BusCategory">Category</label>
+        <select asp-for="BusCategory" class="form-control" asp-items="Html.GetEnumSelectList(typeof(Bus.DomainModels.BusCategory))"> </select>
+    </div>
+
+    <div class="form-group col-md-4">
+        <label asp-for="Capacity">Capacity</label>
+        <input asp-for="Capacity" value="@Model.Capacity" class="form-control input-md" />
+        <span asp-validation-for="Capacity" class="text-danger"></span>
+    </div>
+
+    <div  style="margin-left: 18px;">
+        <input type="submit" class="btn btn-primary" value="Edit" />
+        <a class="btn btn-danger" asp-action="Index" asp-controller="Travel">Cancel</a>
+    </div>
+
+</form>
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

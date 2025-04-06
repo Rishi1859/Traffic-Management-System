@@ -1,0 +1,454 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\DotNetBatchJan2021\\BusReservationSystem\\BusReservationSystem\\BusReservationSystem.csproj": {}
+  },
+  "projects": {
+    "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.DataLayer\\Bus.DataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.DataLayer\\Bus.DataLayer.csproj",
+        "projectName": "Bus.DataLayer",
+        "projectPath": "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.DataLayer\\Bus.DataLayer.csproj",
+        "packagesPath": "C:\\Users\\Sneha\\.nuget\\packages\\",
+        "outputPath": "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.DataLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sneha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.DomainModels\\Bus.DomainModels.csproj": {
+                "projectPath": "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.DomainModels\\Bus.DomainModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Templating": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.DomainModels\\Bus.DomainModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.DomainModels\\Bus.DomainModels.csproj",
+        "projectName": "Bus.DomainModels",
+        "projectPath": "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.DomainModels\\Bus.DomainModels.csproj",
+        "packagesPath": "C:\\Users\\Sneha\\.nuget\\packages\\",
+        "outputPath": "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.DomainModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sneha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Templating": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.RepositoryContract\\Bus.RepositoryContract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.RepositoryContract\\Bus.RepositoryContract.csproj",
+        "projectName": "Bus.RepositoryContract",
+        "projectPath": "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.RepositoryContract\\Bus.RepositoryContract.csproj",
+        "packagesPath": "C:\\Users\\Sneha\\.nuget\\packages\\",
+        "outputPath": "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.RepositoryContract\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sneha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.DataLayer\\Bus.DataLayer.csproj": {
+                "projectPath": "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.DataLayer\\Bus.DataLayer.csproj"
+              },
+              "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.DomainModels\\Bus.DomainModels.csproj": {
+                "projectPath": "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.DomainModels\\Bus.DomainModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Templating": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.RepositoryLayer\\Bus.RepositoryLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.RepositoryLayer\\Bus.RepositoryLayer.csproj",
+        "projectName": "Bus.RepositoryLayer",
+        "projectPath": "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.RepositoryLayer\\Bus.RepositoryLayer.csproj",
+        "packagesPath": "C:\\Users\\Sneha\\.nuget\\packages\\",
+        "outputPath": "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.RepositoryLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sneha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.DataLayer\\Bus.DataLayer.csproj": {
+                "projectPath": "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.DataLayer\\Bus.DataLayer.csproj"
+              },
+              "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.DomainModels\\Bus.DomainModels.csproj": {
+                "projectPath": "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.DomainModels\\Bus.DomainModels.csproj"
+              },
+              "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.RepositoryContract\\Bus.RepositoryContract.csproj": {
+                "projectPath": "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.RepositoryContract\\Bus.RepositoryContract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Templating": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\DotNetBatchJan2021\\BusReservationSystem\\BusReservationSystem\\BusReservationSystem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\DotNetBatchJan2021\\BusReservationSystem\\BusReservationSystem\\BusReservationSystem.csproj",
+        "projectName": "BusReservationSystem",
+        "projectPath": "E:\\DotNetBatchJan2021\\BusReservationSystem\\BusReservationSystem\\BusReservationSystem.csproj",
+        "packagesPath": "C:\\Users\\Sneha\\.nuget\\packages\\",
+        "outputPath": "E:\\DotNetBatchJan2021\\BusReservationSystem\\BusReservationSystem\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sneha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.DataLayer\\Bus.DataLayer.csproj": {
+                "projectPath": "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.DataLayer\\Bus.DataLayer.csproj"
+              },
+              "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.DomainModels\\Bus.DomainModels.csproj": {
+                "projectPath": "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.DomainModels\\Bus.DomainModels.csproj"
+              },
+              "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.RepositoryContract\\Bus.RepositoryContract.csproj": {
+                "projectPath": "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.RepositoryContract\\Bus.RepositoryContract.csproj"
+              },
+              "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.RepositoryLayer\\Bus.RepositoryLayer.csproj": {
+                "projectPath": "E:\\DotNetBatchJan2021\\BusReservationSystem\\Bus.RepositoryLayer\\Bus.RepositoryLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Facebook": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Templating": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

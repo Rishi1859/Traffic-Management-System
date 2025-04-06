@@ -1,0 +1,46 @@
+﻿@model Bus.DomainModels.Route
+@{
+    ViewData["Title"] = "Details";
+}
+
+<body style="
+background-image:url('/images/pattern.jpg');
+background-size:cover;
+background-repeat:no-repeat;
+background-position:center center">
+</body>
+
+<h1 style=" margin-left: 10px;">Details</h1>
+
+@if (Model != null)
+{
+    <table class="table">
+
+        <tr>
+            <td>Route Id</td>
+            <td>R @Model.RouteId</td>
+        </tr>
+
+        <tr>
+            <td>From Location</td>
+            <td>@Model.FromLocation</td>
+        </tr>
+
+        <tr>
+            <td>To Location</td>
+            <td>@Model.ToLocation</td>
+        </tr>
+
+        <tr>
+            <td>Price</td>
+            <td>@Model.Price.ToString("c")</td>
+        </tr>
+
+    </table>
+    <a asp-action="Index" asp-controller="Route" class="btn btn-primary" style="margin-left: 12px;">Back to the list</a>
+}
+else
+{
+    <h5>@ViewBag.StatusCode</h5>
+}
+
